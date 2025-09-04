@@ -23,7 +23,7 @@ cmd({
       return reply("❌ I couldn't find anything.");
     }
 
-    let caption = `*🖥️ 𝐊ꜱᴍ𝐃 𝐅ᴀᴄᴇʙᴏᴏ𝐊 𝐃𝐋*\n\n📝 TITLE : Facebook Video\n🔗 URL : ${q}`;
+    let caption = `*🖥️ ℤ𝔼ℝ𝕆 𝕄𝔻 𝔽𝔹 𝔻𝕃*\n\n📝 TITLE : Facebook Video\n🔗 URL : ${q}`;
 
     if (fb.result.thumb) {
       await conn.sendMessage(from, {
@@ -41,7 +41,7 @@ cmd({
 
       await conn.sendMessage(from, {
         text: "📥 Select download option:",
-        footer: "KSMd FB Downloader",
+        footer: "> ᴢᴇʀᴏ ᴍᴅ ꜰʙ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ",
         buttons: buttons,
         headerType: 4
       }, { quoted: mek });
@@ -62,7 +62,7 @@ cmd({
 
   } catch (err) {
     console.error(err);
-    reply("> *ERROR FB CMD IN KSMD BOT*");
+    reply("> *ERROR FB CMD IN ZERO MD BOT*");
   }
 });
 
