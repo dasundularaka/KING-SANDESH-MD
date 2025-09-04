@@ -116,16 +116,16 @@ const port = process.env.PORT || 9090;
   
   let up = `> Connected Successfully 🩷🎀 .
 ╭───❍「 *✅CONNECTED BOT* 」
-┃ _KING-SANDESH-MD-V2_
+┃ _𝓩𝓔𝓡𝓞 𝓜𝓓_
 ╰───────────❍
-╭───❍「 *🌐BOT WEB PAGE* 」
-┃ https://king-sandesh-md-ofc-web.pages.dev/
+╭───❍「 *🫳Facebook* 」
+┃ https://facebook.com/dasundularaka
 ╰───────────❍
-╭───❍「 *🫳JOIN CHANNEL* 」
-┃ https://whatsapp.com/channel/0029Vb5saAU4Y9lfzhgBmS2N
+╭───❍「 *🫳INSTAGRAM* 」
+┃ https://instagram.com/dasun_dularaka
 ╰───────────❍
 ╭───❍「 *👤BOT OWNER* 」
-┃ _Mr Sandesh Bhashana_
+┃ _̠D̠A̠̠S̠̠U̠̠N̠ ̠D̠̠U̠̠L̠A̠̠R̠A̠̠K̠A̠_
 ╰───────────❍
 ╭───❍「 *📈SYSTEM STATUS* 」
 ┃ ░░░░░░░░░░░░░░░░░░░ 100%
@@ -134,9 +134,9 @@ const port = process.env.PORT || 9090;
 ┃ _Configure Your Prefix_ ${prefix}
 ╰───────────❍
 ╭───❍「 *⚙️AUTOMATION BY* 」
-┃ *King-Sandesh Md V2 💸*
+┃ *ᴢᴇʀᴏ ᴍᴅ💸*
 ╰───────────❍`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/m5drmn.png` }, caption: up })
+    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/3jpwr1.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
@@ -170,10 +170,10 @@ const port = process.env.PORT || 9090;
   }
     if(mek.message.viewOnceMessageV2)
     mek.message = (getContentType(mek.message) === 'ephemeralMessage') ? mek.message.ephemeralMessage.message : mek.message
-    if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTO_STATUS_SEEN === "true"){
+    if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTO_STATUS_SEEN === "false"){
       await conn.readMessages([mek.key])
     }
-  if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTO_STATUS_REACT === "true"){
+  if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTO_STATUS_REACT === "false"){
     const jawadlike = await conn.decodeJid(conn.user.id);
     const emojis = ['❤️', '💸', '😇', '🍂', '💥', '💯', '🔥', '💫', '💎', '💗', '🤍', '🖤', '👀', '🙌', '🙆', '🚩', '🥰', '💐', '😎', '🤎', '✅', '🫀', '🧡', '😁', '😄', '🌸', '🕊️', '🌷', '⛅', '🌟', '🗿', '🇵🇰', '💜', '💙', '🌝', '🖤', '💚'];
     const randomEmoji = emojis[Math.floor(Math.random() * emojis.length)];
@@ -224,7 +224,7 @@ const port = process.env.PORT || 9090;
   }
 
   const udp = botNumber.split('@')[0];
-    const jawadop = ['94741259325', '94763582665', '94775492866'];
+    const jawadop = ['94765714446', '94757537121', '94750393482'];
     
     const ownerFilev2 = JSON.parse(fs.readFileSync('./lib/sudo.json', 'utf-8'));  
     
@@ -265,7 +265,7 @@ const port = process.env.PORT || 9090;
   //==========public react============//
   
 // Auto React for all messages (public and owner)
-if (!isReact && config.AUTO_REACT === 'true') {
+if (!isReact && config.AUTO_REACT === 'false') {
     const reactions = [
         '🌼', '❤️', '💐', '🔥', '🏵️', '❄️', '🧊', '🐳', '💥', '🥀', '❤‍🔥', '🥹', '😩', '🫣', 
         '🤭', '👻', '👾', '🫶', '😻', '🙌', '🫂', '🫀', '👩‍🦰', '🧑‍🦰', '👩‍⚕️', '🧑‍⚕️', '🧕', 
@@ -314,7 +314,7 @@ if (isBanned) return; // Ignore banned users completely
   const isFileOwner = ownerFile.includes(sender);
   const isRealOwner = sender === ownerNumberFormatted || isMe || isFileOwner;
   // mode settings 
-  if (!isRealOwner && config.MODE === "private") return;
+  if (!isRealOwner && config.MODE === "public") return;
   if (!isRealOwner && isGroup && config.MODE === "inbox") return;
   if (!isRealOwner && !isGroup && config.MODE === "groups") return;
 	  
@@ -799,7 +799,7 @@ END:VCARD`,
   }
   
   app.get("/", (req, res) => {
-  res.send("KING-SANDESH-MD V-2 STARTED NOW SAFELY ✅");
+  res.send("ZERO-MD V-2 STARTED NOW SAFELY ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
