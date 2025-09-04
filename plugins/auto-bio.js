@@ -49,7 +49,7 @@ async (conn, mek, m, {
     try {
       const currentTime = moment().tz("Asia/Colombo").format("HH:mm:ss");
       const quote = lifeQuotes[Math.floor(Math.random() * lifeQuotes.length)];
-      const newStatus = `✨📸 𝐊ɪɴɢ-𝐒ᴀɴᴅᴇꜱʜ-𝐌ᴅ 𝐈𝐬 𝐀ᴄᴛɪᴠᴇ 🟢 | ⏰ ${currentTime} 🇱🇰\n💬 ${quote}`;
+      const newStatus = `✨📸 🅩🅔🅡🅞 🅜🅓 🅘🅢 🅐🅒🅣🅘🅥🅔 🟢 | ⏰ ${currentTime} 🇱🇰\n💬 ${quote}`;
 
       await conn.updateProfileStatus(newStatus);
       console.log("✅ Bio updated:", newStatus);
