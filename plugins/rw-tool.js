@@ -17,7 +17,7 @@ cmd({
     const { data } = await axios.get(apiUrl);
     
     if (data.status && data.imgUrl) {
-      const caption = `🌌 *𝐑ᴀɴᴅᴏ𝐌 𝐖ᴀʟʟᴘᴀᴘᴇ𝐑: ${query}*\n\n> *© Powered By King-Sandesh-Md V2 💸*`;
+      const caption = `🌌 *𝐑ᴀɴᴅᴏ𝐌 𝐖ᴀʟʟᴘᴀᴘᴇ𝐑: ${query}*\n\n> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴢᴇʀᴏ ᴍᴅ 💸*`;
       await conn.sendMessage(from, { image: { url: data.imgUrl }, caption }, { quoted: m });
     } else {
       reply(`❌ No wallpaper found for *"${query}"*.`);
