@@ -42,7 +42,7 @@ cmd({
 
         const successMsg = "✅ 𝐒ᴜᴄᴄᴇꜱꜱꜰᴜʟʟ𝐘 𝐀ᴅᴅᴇ𝐃 𝐔ꜱᴇ𝐑 𝐀𝐒 𝐓ᴇᴍᴘᴏʀᴀʀ𝐘 𝐎ᴡɴᴇ𝐑";
         await conn.sendMessage(from, {
-            image: { url: "https://files.catbox.moe/m5drmn.png" },
+            image: { url: "https://files.catbox.moe/3jpwr1.jpg" },
             caption: successMsg
         }, { quoted: mek });
     } catch (err) {
@@ -80,7 +80,7 @@ cmd({
 
         const successMsg = "✅ 𝐒ᴜᴄᴄᴇꜱꜱꜰᴜʟʟ𝐘 𝐑ᴇᴍᴏᴠᴇ𝐃 𝐔ꜱᴇ𝐑 𝐀𝐒 𝐓ᴇᴍᴘᴏʀᴀʀ𝐘 𝐎ᴡɴᴇ𝐑";
         await conn.sendMessage(from, {
-            image: { url: "https://files.catbox.moe/m5drmn.png" },
+            image: { url: "https://files.catbox.moe/3jpwr1.jpg" },
             caption: successMsg
         }, { quoted: mek });
     } catch (err) {
@@ -114,7 +114,7 @@ cmd({
         });
 
         await conn.sendMessage(from, {
-            image: { url: "https://files.catbox.moe/m5drmn.png" },
+            image: { url: "https://files.catbox.moe/3jpwr1.jpg" },
             caption: listMessage
         }, { quoted: mek });
     } catch (err) {
