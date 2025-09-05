@@ -68,7 +68,7 @@ const {
   //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
 if(!config.SESSION_ID) return console.log('KSMD~msIBlDzZ#gkHZg0q64Xiz_Tl_RQEOQj_NTvUPuoehXJL9hmax8g8')
-const sessdata = config.SESSION_ID.replace("KSMD~", 'KSMD~msIBlDzZ#gkHZg0q64Xiz_Tl_RQEOQj_NTvUPuoehXJL9hmax8g8');
+const sessdata = config.SESSION_ID.replace('KSMD~msIBlDzZ#gkHZg0q64Xiz_Tl_RQEOQj_NTvUPuoehXJL9hmax8g8');
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
