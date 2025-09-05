@@ -33,7 +33,7 @@ cmd({
     await conn.sendMessage(from, {
       video: { url: data.downloadUrl },
       mimetype: "video/mp4",
-      caption: "📥 *𝐈ɴꜱᴛᴀɢʀᴀ𝐌 𝐕ɪᴅᴇ𝐎 𝐃ᴏᴡɴʟᴏᴀᴅᴇ𝐃 𝐒ᴜᴄᴄᴇꜱꜱꜰᴜʟʟ𝐘..!*\n\n> *© Powered By King-Sandesh-Md V2 💸*"
+      caption: "📥 *𝐈ɴꜱᴛᴀɢʀᴀ𝐌 𝐕ɪᴅᴇ𝐎 𝐃ᴏᴡɴʟᴏᴀᴅᴇ𝐃 𝐒ᴜᴄᴄᴇꜱꜱꜰᴜʟʟ𝐘..!*\n\n> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴢᴇʀᴏ ᴍᴅ💸*"
     }, { quoted: m });
 
   } catch (error) {
@@ -59,7 +59,7 @@ cmd({
 }) => {
   try {
     if (!q || !q.startsWith("https://")) {
-      return conn.sendMessage(from, { text: "❌ Please provide a valid Twitter URL." }, { quoted: m });
+      return conn.sendMessage(from, { text: "❌ Please provide a valid X URL." }, { quoted: m });
     }
 
     await conn.sendMessage(from, {
@@ -70,12 +70,12 @@ cmd({
     const data = response.data;
 
     if (!data || !data.status || !data.result) {
-      return reply("⚠️ Failed to retrieve Twitter video. Please check the link and try again.");
+      return reply("⚠️ Failed to retrieve X video. Please check the link and try again.");
     }
 
     const { desc, thumb, video_sd, video_hd } = data.result;
 
-    const caption = `╭━━━〔 *𝐊ꜱᴍ𝐃 𝐓ᴡɪᴛᴛᴇ𝐑 𝐃ᴏᴡɴʟᴏᴀᴅᴇ𝐑* 〕━━━⊷\n`
+    const caption = `╭━━━〔 *𝚉𝙴𝚁𝙾 𝙼𝙳 𝚇 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙴𝚁* 〕━━━⊷\n`
       + `┃▸ *𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝚃𝙸𝙾𝙽:* ${desc || "No description"}\n`
       + `╰━━━⪼\n\n`
       + `📹 *𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙾𝙿𝚃𝙸𝙾𝙽𝚂:*\n`
@@ -197,7 +197,7 @@ cmd({
       react: { text: "⬆️", key: m.key }
     });
 
-    const caption = `╭━━━〔 *𝐊ꜱᴍ𝐃 𝐌ᴇᴅɪᴀꜰɪʀ𝐄 𝐃ᴏᴡɴʟᴏᴀᴅᴇ𝐑* 〕━━━⊷\n`
+    const caption = `╭━━━〔 *𝚉𝙴𝚁𝙾 𝙼𝙳 𝙼𝙴𝙳𝙸𝙰𝙵𝙸𝚁𝙴 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙴𝚁* 〕━━━⊷\n`
       + `┃▸ *𝙵𝙸𝙻𝙴 𝙽𝙰𝙼𝙴:* ${file_name}\n`
       + `┃▸ *𝙵𝙸𝙻𝙴 𝚃𝚈𝙿𝙴:* ${mime_type}\n`
       + `╰━━━⪼\n\n`
@@ -247,14 +247,14 @@ cmd({
     const app = data.datalist.list[0];
     const appSize = (app.size / 1048576).toFixed(2); // Convert bytes to MB
 
-    const caption = `╭━━━〔 *𝐊ꜱᴍ𝐃 𝐀ᴘ𝐊 𝐃ᴏᴡɴʟᴏᴀᴅᴇ𝐑* 〕━━━┈⊷
+    const caption = `╭━━━〔 *𝚉𝙴𝚁𝙾 𝙼𝙳 𝙰𝙿𝙺 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙴𝚁* 〕━━━┈⊷
 ┃ 📦 *𝙽𝙰𝙼𝙴:* ${app.name}
 ┃ 🏋 *𝚂𝙸𝚉𝙴:* ${appSize} MB
 ┃ 📦 *𝙿𝙰𝙲𝙺𝙰𝙶𝙴:* ${app.package}
 ┃ 📅 *𝚄𝙿𝙳𝙰𝚃𝙴𝙳 𝙾𝙽:* ${app.updated}
 ┃ 👨‍💻 *𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁:* ${app.developer.name}
 ╰━━━━━━━━━━━━━━━┈⊷
-> *© Powered By King-Sandesh-Md V2 💸*`;
+> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴢᴇʀᴏ ᴍᴅ 💸*`;
 
     await conn.sendMessage(from, { react: { text: "⬆️", key: m.key } });
 
