@@ -34,7 +34,7 @@ cmd({
   await conn.sendMessage(m.from, {
     image: { url: poster },
     caption: `🎬 *${title}*\n🗓️ 𝚈𝙴𝙰𝚁: ${year}\n\n📥 *Ｓᴇʟᴇᴄᴛ Ｑᴜᴀʟɪᴛʏ Ｏʀ Ｕꜱᴇ :*\n.moviedl ${movieName} 720p`,
-    footer: '<| 𝐊𝐈𝐍𝐆-𝐒𝐀𝐍𝐃𝐄𝐒𝐇-𝐌𝐃 𝐕❷🫧 𝐌ᴏᴠɪᴇ 𝐃ᴏᴡɴʟᴏᴀᴅᴇʀ',
+    footer: '<| 𝙕𝙀𝙍𝙊-𝙈𝘿🫧 𝐌ᴏᴠɪᴇ 𝐃ᴏᴡɴʟᴏᴀᴅᴇʀ',
     buttons,
     headerType: 4
   }, { quoted: m });
@@ -73,7 +73,7 @@ cmd({
   await conn.sendMessage(m.from, {
     image: { url: poster },
     caption: `📺 *${title}*\n🗓️ 𝚈𝙴𝙰𝚁: ${year}\n\n📥 *Ｓᴇʟᴇᴄᴛ Ｑᴜᴀʟɪᴛʏ Ｏʀ Ｕꜱᴇ :*\n.tvshowdl ${showName} 720p`,
-    footer: '<| 𝐊𝐈𝐍𝐆-𝐒𝐀𝐍𝐃𝐄𝐒𝐇-𝐌𝐃 𝐕❷🫧 𝐓ᴠ 𝐒ᴇʀɪᴇꜱ 𝐃ᴏᴡɴʟᴏᴀᴅᴇʀ',
+    footer: '<| 𝙕𝙀𝙍𝙊-𝙈𝘿🫧 𝐓ᴠ 𝐒ᴇʀɪᴇꜱ 𝐃ᴏᴡɴʟᴏᴀᴅᴇʀ',
     buttons,
     headerType: 4
   }, { quoted: m });
