@@ -13,7 +13,7 @@ cmd({
     filename: __filename,
 },
 async (conn, mek, m, { from, reply }) => {
-    const githubRepoURL = 'https://github.com/vijitharanawakage/KING-SANDESH-MD';
+    const githubRepoURL = 'https://github.com/dasundularaka/KING-SANDESH-MD';
 
     try {
         // Extract username and repo name from the URL
@@ -29,11 +29,11 @@ async (conn, mek, m, { from, reply }) => {
         const repoData = await response.json();
 
         // Format the repository information
-        const formattedInfo = `*ＢＯＴ ＮＡＭＥ:*\n> ${repoData.name}\n\n*ＯＷＮＥＲ ＮＡＭＥ:*\n> ${repoData.owner.login}\n\n*ＳＴＡＲＳ:*\n> ${repoData.stargazers_count}\n\n*ＦＯＲＫＳ:*\n> ${repoData.forks_count}\n\n*ＧＩＴＨＵＢ ＬＩＮＫ:*\n> ${repoData.html_url}\n\n*ＤＥＳＣＲＩＰＴＩＯＮ:*\n> ${repoData.description || 'No description'}\n\n*✋ 𝙳𝙾𝙽'𝚃 𝙵𝙾𝚁𝙶𝙴𝚃 𝚃𝙾 𝚂𝚃𝙰𝚁 𝙰𝙽𝙳 𝙵𝙾𝚁𝙺 𝚁𝙴𝙿𝙾𝚂𝙸𝚃𝙾𝚁𝚈*\n\n> *© Powered By King-Sandesh Md V2 💸*`;
+        const formattedInfo = `*ＢＯＴ ＮＡＭＥ:*\n> ${repoData.name}\n\n*ＯＷＮＥＲ ＮＡＭＥ:*\n> ${repoData.owner.login}\n\n*ＳＴＡＲＳ:*\n> ${repoData.stargazers_count}\n\n*ＦＯＲＫＳ:*\n> ${repoData.forks_count}\n\n*ＧＩＴＨＵＢ ＬＩＮＫ:*\n> ${repoData.html_url}\n\n*ＤＥＳＣＲＩＰＴＩＯＮ:*\n> ${repoData.description || 'No description'}\n\n*✋ 𝙳𝙾𝙽'𝚃 𝙵𝙾𝚁𝙶𝙴𝚃 𝚃𝙾 𝚂𝚃𝙰𝚁 𝙰𝙽𝙳 𝙵𝙾𝚁𝙺 𝚁𝙴𝙿𝙾𝚂𝙸𝚃𝙾𝚁𝚈*\n\n> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴢᴇʀᴏ ᴍᴅ 💸*`;
 
         // Send image with caption
         await conn.sendMessage(from, {
-            image: { url: `https://files.catbox.moe/m5drmn.png` },
+            image: { url: `https://files.catbox.moe/3jpwr1.jpg` },
             caption: formattedInfo,
             contextInfo: { 
                 mentionedJid: [m.sender],
