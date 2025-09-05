@@ -33,7 +33,7 @@ async (conn, mek, m, { from, quoted, sender, reply }) => {
         const end = new Date().getTime();
         const responseTime = (end - start) / 1000;
 
-        const text = `> *📍 𝐊ꜱᴍ𝐃 𝐏ɪɴ𝐆: ${responseTime.toFixed(2)}𝐌𝐒 ${reactionEmoji}*`;
+        const text = `> *📍 ZERO MD PING: ${responseTime.toFixed(2)}𝐌𝐒 ${reactionEmoji}*`;
 
         await conn.sendMessage(from, {
             text,
@@ -67,7 +67,7 @@ cmd({
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
         const startTime = Date.now();
-        const { key } = await conn.sendMessage(from, { text: '*𝙿𝙸𝙽𝙶𝙸𝙽𝙶 𝙺𝚂𝙼𝙳...*' });
+        const { key } = await conn.sendMessage(from, { text: '*PINGING ZERO MD...*' });
         const endTime = Date.now();
         const ping = endTime - startTime;
     
