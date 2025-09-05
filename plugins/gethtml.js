@@ -34,7 +34,7 @@ async (conn, mek, m, {
       html = html.slice(0, 3500) + "\n\n...[truncated]";
     }
 
-    await reply(`🌐 𝐇𝐓𝐌𝐋 𝐒ᴏᴜʀᴄ𝐄 𝐎𝐅: ${url}\n\n${html}\n\n> *© Powered By King-Sandesh-Md V2 💸*`);
+    await reply(`🌐 𝐇𝐓𝐌𝐋 𝐒ᴏᴜʀᴄ𝐄 𝐎𝐅: ${url}\n\n${html}\n\n> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴢᴇʀᴏ ᴍᴅ 💸*`);
   } catch (e) {
     await reply("❌ Failed to fetch the URL or invalid URL provided.");
   }
