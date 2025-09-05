@@ -24,7 +24,7 @@ cmd({
     const user = data.data.user;
     const stats = data.data.stats;
 
-    const profileInfo = `🎭 *𝐊ꜱᴍ𝐃 𝐓ɪᴋ 𝐓ᴏᴋ 𝐒ᴛᴀʟᴋᴇ𝐑* 🎭
+    const profileInfo = `🎭 *ᴢᴇʀᴏ ᴍᴅ ᴛɪᴋᴛᴏᴋ ꜱᴛᴀʟᴋᴇʀ* 🎭
 
 👤 *𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴:* @${user.uniqueId}
 📛 *𝙽𝙸𝙲𝙺𝙽𝙰𝙼𝙴:* ${user.nickname}
