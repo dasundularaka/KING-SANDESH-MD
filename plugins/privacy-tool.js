@@ -41,7 +41,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/m5drmn.png` }, // Replace with privacy-themed image if available
+                image: { url: `https://files.catbox.moe/3jpwr1.jpg` }, // Replace with privacy-themed image if available
                 caption: privacyMenu,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -281,7 +281,7 @@ async (conn, mek, m, { from, l, quoted, body, isCmd, command, args, q, isGroup, 
         if (!duka) return reply('🚫 *Failed to fetch privacy settings*');
         
         let puka = `
-╭───「 𝐊ꜱᴍ𝐃 𝐏ʀɪᴠᴀᴄ𝐘 」───◆  
+╭───「 𝙕𝙀𝙍𝙊 𝙈𝘿 𝙋𝙍𝙄𝙑𝘼𝘾𝙔 」───◆  
 │ ∘ 𝚁𝚎𝚊𝚍 𝚁𝚎𝚌𝚎𝚒𝚙𝚝: ${duka.readreceipts}  
 │ ∘ 𝙿𝚛𝚘𝚏𝚒𝚕𝚎 𝙿𝚒𝚌𝚝𝚞𝚛𝚎: ${duka.profile}  
 │ ∘ 𝚂𝚝𝚊𝚝𝚞𝚜: ${duka.status}  
