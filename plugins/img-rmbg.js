@@ -75,7 +75,7 @@ cmd({
 
     await conn.sendMessage(m.chat, {
       image: imageBuffer,
-      caption: `𝐁ᴀᴄᴋɢʀᴏᴜɴ𝐃 𝐑ᴇᴍᴏᴠᴇ𝐃\n\n> *© Powered By King-Sandesh Md V2 💸*`
+      caption: `𝐁ᴀᴄᴋɢʀᴏᴜɴ𝐃 𝐑ᴇᴍᴏᴠᴇ𝐃\n\n> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴢᴇʀᴏ ᴍᴅ 💸*`
     });
 
   } catch (error) {
