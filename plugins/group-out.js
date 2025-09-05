@@ -26,7 +26,7 @@ async (conn, mek, m, {
 
     const countryCode = q.trim();
     if (!/^\d+$/.test(countryCode)) {
-        return reply("❌ Invalid country code. Please provide only numbers (e.g., 92 for +92 numbers)");
+        return reply("❌ Invalid country code. Please provide only numbers (e.g., 94 for +94 numbers)");
     }
 
     try {
