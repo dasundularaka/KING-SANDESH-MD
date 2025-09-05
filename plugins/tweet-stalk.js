@@ -28,7 +28,7 @@ cmd({
     const user = data.data;
     const verifiedBadge = user.verified ? "✅" : "❌";
 
-    const caption = `╭━━━〔 *𝐊ꜱᴍ𝐃 𝐓ᴡɪᴛᴛᴇ𝐑/𝐗 𝐒ᴛᴀʟᴋᴇ𝐑* 〕━━━⊷\n`
+    const caption = `╭━━━〔 *ᴢᴇʀᴏ ᴍᴅ x ꜱᴛᴀʟᴋᴇʀ* 〕━━━⊷\n`
       + `┃👤 *𝙽𝙰𝙼𝙴:* ${user.name}\n`
       + `┃🔹 *𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴:* @${user.username}\n`
       + `┃✔️ *𝚅𝙴𝚁𝙸𝙵𝙸𝙴𝙳:* ${verifiedBadge}\n`
@@ -38,7 +38,7 @@ cmd({
       + `┃📅 *𝙹𝙾𝙸𝙽𝙴𝙳:* ${user.created}\n`
       + `┃🔗 *𝙿𝚁𝙾𝙵𝙸𝙻𝙴:* [Click Here](${user.url})\n`
       + `╰━━━⪼\n\n`
-      + `> *© Powered By King-Sandesh Md V2 💸*`;
+      + `> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴢᴇʀᴏ ᴍᴅ 💸*`;
 
     await conn.sendMessage(from, {
       image: { url: user.avatar },
