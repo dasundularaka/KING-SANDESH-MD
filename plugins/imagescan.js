@@ -75,7 +75,7 @@ cmd({
     await reply(
       `🔍 *𝙸𝙼𝙰𝙶𝙴 𝙰𝙽𝙰𝙻𝚈𝚂𝙸𝚂 𝚁𝙴𝚂𝚄𝙻𝚃𝚂*\n\n` +
       `${scanResponse.data.result}\n\n` +
-      `> *© Powered By King-Sandesh Md V2 💸*`
+      `> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴢᴇʀᴏ ᴍᴅ 💸*`
     );
 
   } catch (error) {
