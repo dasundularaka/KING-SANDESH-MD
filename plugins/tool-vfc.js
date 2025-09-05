@@ -39,8 +39,8 @@ cmd({
         await conn.sendMessage(from, {
             document: fs.readFileSync(nmfilect), 
             mimetype: 'text/vcard', 
-            fileName: 'MrUnknownKsmd.vcf', 
-            caption: `\n𝐃ᴏɴ𝐄 𝐒ᴀᴠɪɴ𝐆.\n𝐆ʀᴏᴜ𝐏 𝐍ᴀᴍ𝐄: *${cmiggc.subject}*\n𝐂ᴏɴᴛᴀᴄᴛ𝐒: *${cmiggc.participants.length}*\n> *© Powered By King-Sandesh-Md V2 💸*`}, { quoted: mek });
+            fileName: 'unknownzeromd.vcf', 
+            caption: `\n𝐃ᴏɴ𝐄 𝐒ᴀᴠɪɴ𝐆.\n𝐆ʀᴏᴜ𝐏 𝐍ᴀᴍ𝐄: *${cmiggc.subject}*\n𝐂ᴏɴᴛᴀᴄᴛ𝐒: *${cmiggc.participants.length}*\n> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴢᴇʀᴏ ᴍᴅ 💸*`}, { quoted: mek });
 
         fs.unlinkSync(nmfilect); // Cleanup the file after sending
     } catch (err) {
