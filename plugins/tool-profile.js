@@ -97,7 +97,7 @@ if (!user?.exists) return reply("❌ User not found on WhatsApp");
             "No bio available";
 
         const userInfo = `
-*𝐊ꜱᴍ𝐃 𝐆𝐂 𝐌ᴇᴍʙᴇ𝐑 𝐈ɴꜰ𝐎 🧊*
+*𝐙𝐄𝐑𝐎 𝐌𝐃 𝐆𝐂 𝐌𝐄𝐌𝐁𝐄𝐑 𝐈𝐍𝐅𝐎 🧊*
 
 📛 *𝙽𝙰𝙼𝙴:* ${userName}
 🔢 *𝙽𝚄𝙼𝙱𝙴𝚁:* ${userJid.replace(/@.+/, '')}
