@@ -28,7 +28,7 @@ async (conn, mek, m, { from, args, q, reply, react }) => {
         if (post.images && post.images.length > 0) {
             for (const img of post.images) {
                 await conn.sendMessage(from, { image: { url: img }, caption }, { quoted: mek });
-                caption = "> *© Powered By King-Sandesh-Md V2 💸*"; // Only add caption once, images follow
+                caption = "> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴢᴇʀᴏ ᴍᴅ 💸*"; // Only add caption once, images follow
             }
         } else {
             await conn.sendMessage(from, { text: caption }, { quoted: mek });
