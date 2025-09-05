@@ -22,9 +22,9 @@ cmd({
       return reply("> ❌ Movie Not Found On Zoom..!");
     }
 
-    let txt = `🎬 *ＫɪɴＧ ＳᴀɴᴅᴇꜱＨ ＭＤ ＺᴏᴏＭ ＳᴜʙᴛɪᴛʟＥ ＤᴏᴡɴʟᴏᴀᴅᴇＲ* 🎬\n\n`;
+    let txt = `🎬 *ᴢᴇʀᴏ ᴍᴅ ᴢᴏᴏᴍ ꜱᴜʙᴛɪᴛʟᴇꜱ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ* 🎬\n\n`;
     data.results.forEach((res, i) => {
-      txt += `*${i+1}.* ${res.title}\n👤 ${res.author}\n💬 𝙲𝙾𝙼𝙼𝙴𝙽𝚃𝚂: ${res.comments}\n🔗 𝙻𝙸𝙽𝙺: ${res.link}\n\n> *© Powered By King-Sandesh Md V2 💸*\n\n`;
+      txt += `*${i+1}.* ${res.title}\n👤 ${res.author}\n💬 𝙲𝙾𝙼𝙼𝙴𝙽𝚃𝚂: ${res.comments}\n🔗 𝙻𝙸𝙽𝙺: ${res.link}\n\n> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴢᴇʀᴏ ᴍᴅ 💸*\n\n`;
     });
     txt += `\n➡️ Use: *.subdl <movie link>* to download`;
 
@@ -58,7 +58,7 @@ cmd({
     let cap = `🎬 *${data.results.title}*\n\n`;
     cap += `📅 𝙳𝙰𝚃𝙴: ${data.results.date}\n`;
     cap += `👁️ 𝚅𝙸𝙴𝚆𝚂: ${data.results.view}\n`;
-    cap += `💾 𝚂𝙸𝚉𝙴: ${data.results.size}\n\n> *© Powered By King-Sandesh Md V2 💸*`;
+    cap += `💾 𝚂𝙸𝚉𝙴: ${data.results.size}\n\n> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴢᴇʀᴏ ᴍᴅ 💸*`;
 
     // File name & extension detect
     let dlLink = data.results.dl_link;
