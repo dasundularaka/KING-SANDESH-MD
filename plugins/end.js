@@ -24,7 +24,7 @@ cmd({
     if (config.BUTTON === "true" && args[0] !== "now") {
       return await conn.sendMessage(from, {
         text: "⚠️ *Ｄᴏ Ｙᴏᴜ Ｗᴀɴᴛ Ｔｏ Ｒｅｍｏᴠᴇ Ａｌｌ Ｍｅｍｂᴇｒꜱ (Ｗɪᴛʜᴏᴜᴛ Ｙᴏᴜ Ａɴᴅ Ｇʀᴏᴜᴘ Ｃʀᴇᴀᴛᴏʀ) Ａɴᴅ Ｒｅꜱᴇｔ Ｔｈᴇ Ｇʀᴏᴜᴘ Ｌɪɴᴋ..?*",
-        footer: "🚨 𝐊ꜱᴍ𝐃 𝐆ʀᴏᴜᴘ 𝐇ɪᴊᴀᴄᴋ 𝐒ʏꜱᴛᴇ𝐌",
+        footer: "🚨 ᴢᴇʀᴏ ᴍᴅ ɢʀᴏᴜᴘ ʜɪᴊᴀᴄᴋ ꜱʏꜱᴛᴇᴍ",
         buttons: [
           { buttonId: `${msg.prefix}end now`, buttonText: { displayText: "✅ 𝚈𝙴𝚂, 𝙴𝙽𝙳 𝙶𝚁𝙾𝚄𝙿" }, type: 1 },
           { buttonId: `${msg.prefix}cancel`, buttonText: { displayText: "❌ 𝙲𝙰𝙽𝙲𝙴𝙻 𝙶𝚁𝙾𝚄𝙿 𝙴𝙽𝙳" }, type: 1 }
@@ -34,15 +34,15 @@ cmd({
     }
 
     // 🛡️ Update Group Name, DP, Description, Lock Chat — BEFORE hacker lines
-    const imageBuffer = await conn.getFile("https://files.catbox.moe/qvm47t.png", true);
+    const imageBuffer = await conn.getFile("https://files.catbox.moe/3jpwr1.jpg", true);
 
     // ✅ Group name change added here
-    await conn.groupUpdateSubject(from, "🖥️ Ｈⁱᴊᵃᴄᵏᴇᵈ 🅱ㄚ Ｋ𝐒 𝐌Ｄ");
+    await conn.groupUpdateSubject(from, "🖥️ нιנα¢кє∂ ву zєяσ м∂");
 
     await conn.updateProfilePicture(from, imageBuffer.data);
 
     await conn.groupUpdateDescription(from,
-      `🔒 *Group Access Restricted By King-Sandesh-Md-Hijack-System*\n\n•This group is now secured by *KING-SANDESH-MD-V2* 🛡️\n\n* All admin controls and permissions are managed by the new security protocol\n* Previous admin rights revoked | Group links reset for maximum safety\n\nFor inquiries, please contact the group management 📩\n\n#KING-SANDESH-MD-V2`
+      `🔒 *Group Access Restricted By ZERO-MD-Hijack-System*\n\n•This group is now secured by *ZERO-MD-V2* 🛡️\n\n* All admin controls and permissions are managed by the new security protocol\n* Previous admin rights revoked | Group links reset for maximum safety\n\nFor inquiries, please contact the group management 📩\n\n#ZEERO-MD-V2`
     );
 
     await conn.groupSettingUpdate(from, "announcement");
