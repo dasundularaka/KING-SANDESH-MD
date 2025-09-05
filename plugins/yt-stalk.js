@@ -26,13 +26,13 @@ cmd({
     }
 
     const yt = data.data;
-    const caption = `╭━━━〔 *𝐊ꜱᴍ𝐃 𝐘ᴏ𝐔 𝐓ᴜʙ𝐄 𝐒ᴛᴀʟᴋᴇ𝐑* 〕━━━⊷\n`
+    const caption = `╭━━━〔 *ᴢᴇʀᴏ ᴍᴅ ʏᴏᴜᴛᴜʙᴇ ꜱᴛᴀʟᴋᴇʀ* 〕━━━⊷\n`
       + `┃👤 *𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴:* ${yt.username}\n`
       + `┃📊 *𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴𝚁𝚂:* ${yt.subscriber_count}\n`
       + `┃🎥 *𝚅𝙸𝙳𝙴𝙾𝚂:* ${yt.video_count}\n`
       + `┃🔗 *𝙲𝙷𝙰𝙽𝙽𝙴𝙻 𝙻𝙸𝙽𝙺:* (${yt.channel})\n`
       + `╰━━━⪼\n\n`
-      + `> *© Powered By King-Sandesh Md V2 💸*`;
+      + `> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴢᴇʀᴏ ᴍᴅ 💸*`;
 
     await conn.sendMessage(from, {
       image: { url: yt.avatar },
