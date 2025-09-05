@@ -20,7 +20,7 @@ cmd({
             return await reply("❌ Please provide a valid phone number without `+`\nExample: `.pair 947412593XX`");
         }
 
-        await reply("⏳ *Ｇ𝙴𝙽𝙴𝚁𝙰𝚃𝙸𝙽𝙶 Ｙ𝙾𝚄𝚁 Ｐ𝙰𝙸𝚁𝙸𝙽𝙶 Ｃ𝙾𝙳𝙴...*\n\n𝐏ʟᴇᴀꜱ𝐄 𝐖ᴀɪ𝐓 𝐖ʜɪʟ𝐄 𝐖𝐄 𝐂ᴏɴɴᴇᴄ𝐓 𝐓𝐎 𝐓ʜ𝐄 𝐊ɪɴ𝐆 - 𝐒ᴀɴᴅᴇꜱ𝐇 - 𝐌𝐃 𝐒ᴇʀᴠᴇ𝐑.");
+        await reply("⏳ *Ｇ𝙴𝙽𝙴𝚁𝙰𝚃𝙸𝙽𝙶 Ｙ𝙾𝚄𝚁 Ｐ𝙰𝙸𝚁𝙸𝙽𝙶 Ｃ𝙾𝙳𝙴...*\n\nℙ𝕃𝔼𝔸𝕊𝔼 𝕎𝔸𝕀𝕋 𝕎ℍ𝕀𝕃𝔼 𝕎𝔼 ℂ𝕆ℕℕ𝔼ℂ𝕋 𝕋𝕆 𝕋ℍ𝔼 ℤ𝔼ℝ𝕆 𝕄𝔻 𝕊𝔼ℝ𝕍𝔼ℝ𝕊.");
 
         const res = await axios.get(`https://ks-md-pair.onrender.com/code?number=${encodeURIComponent(phoneNumber)}`);
 
@@ -30,7 +30,7 @@ cmd({
 
         const pairingCode = res.data.code;
         const instructions = 
-            `✅ *ＫꜱᴍＤ ＰᴀɪʀɪɴＧ ＣᴏᴍᴘʟᴇᴛᴇＤ*\n\n` +
+            `✅ *·~-.ZERO MD PAIRING COMPLETED.-~*\n\n` +
             `*𝐘𝐨𝐮𝐫 𝐏𝐚𝐢𝐫𝐢𝐧𝐠 𝐂𝐨𝐝𝐞 𝐈𝐬:* \`\`\`${pairingCode}\`\`\`\n\n` +
             `📌 *𝐈𝐧𝐬𝐭𝐫𝐮𝐜𝐭𝐢𝐨𝐧𝐬 𝐅𝐨𝐫 𝐏𝐚𝐢𝐫:*\n` +
             `1. 𝙾𝙿𝙴𝙽 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 𝙾𝙽 𝚈𝙾𝚄𝚁 𝙳𝙴𝚅𝙸𝙲𝙴.\n` +
