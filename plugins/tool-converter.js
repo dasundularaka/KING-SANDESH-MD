@@ -13,7 +13,7 @@ cmd({
     // Input validation
     if (!message.quoted) {
         return await client.sendMessage(from, {
-            text: "✨ *𝐒ᴛɪᴄᴋᴇ𝐑 𝐂ᴏɴᴠᴇʀᴛᴇ𝐑 𝐁𝐘 𝐊ꜱᴍ𝐃*\n\nＰʟᴇᴀꜱᴇ Ｒᴇᴘʟʏ Ｔᴏ Ａ Ｓᴛɪᴄᴋᴇʀ Ｍᴀꜱꜱᴀɢᴇ\n\nExample: `.convert` (reply to sticker)"
+            text: "✨ *𝐒𝐓𝐈𝐂𝐊𝐄𝐑 𝐂𝐎𝐍𝐕𝐄𝐑𝐓𝐄𝐑 𝐁𝐘 𝐙𝐄𝐑𝐎*\n\nＰʟᴇᴀꜱᴇ Ｒᴇᴘʟʏ Ｔᴏ Ａ Ｓᴛɪᴄᴋᴇʀ Ｍᴀꜱꜱᴀɢᴇ\n\nExample: `.convert` (reply to sticker)"
         }, { quoted: message });
     }
 
@@ -35,7 +35,7 @@ cmd({
         // Send result
         await client.sendMessage(from, {
             image: imageBuffer,
-            caption: "> *© Powered By King-Sandesh-Md V2 💸*",
+            caption: "> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴢᴇʀᴏ ᴍᴅ 💸*",
             mimetype: 'image/png'
         }, { quoted: message });
 
