@@ -17,7 +17,7 @@ cmd({
     const botNumber = conn.user.id.split(":")[0] + '@s.whatsapp.net';
 
     if (m.mentionedJid.includes(botNumber)) {
-      const thumbnailRes = await axios.get(config.MENU_IMAGE_URL || "https://files.catbox.moe/m5drmn.png", {
+      const thumbnailRes = await axios.get(config.MENU_IMAGE_URL || "https://files.catbox.moe/3jpwr1.jpg", {
         responseType: 'arraybuffer'
       });
       const thumbnailBuffer = Buffer.from(thumbnailRes.data, 'binary');
@@ -31,13 +31,13 @@ cmd({
           forwardingScore: 999,
           isForwarded: true,
           externalAdReply: {
-            title: config.BOT_NAME || "<| 𝐊𝐈𝐍𝐆-𝐒𝐀𝐍𝐃𝐄𝐒𝐇-𝐌𝐃 𝐕❷🫧",
-            body: config.FOOTER || "> *© Powered By King-Sandesh Md V2 💸*",
+            title: config.BOT_NAME || "<| 𝙕𝙀𝙍𝙊-𝙈𝘿🫧",
+            body: config.FOOTER || "> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴢᴇʀᴏ ᴍᴅ 💸*",
             mediaType: 1,
             renderLargerThumbnail: true,
             thumbnail: thumbnailBuffer,
-            mediaUrl: "https://files.catbox.moe/m5drmn.png", // Static image URL
-            sourceUrl: "https://wa.me/94741259325",
+            mediaUrl: "https://files.catbox.moe/3jpwr1.jpg", // Static image URL
+            sourceUrl: "https://wa.me/94765714446",
             showAdAttribution: true
           }
         }
