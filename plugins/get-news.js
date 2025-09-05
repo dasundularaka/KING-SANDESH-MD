@@ -24,7 +24,7 @@ async (conn, mek, m, { from, reply }) => {
 ⚠️ _${article.description}_
 🔗 _${article.url}_
 
-> *© Powered By King-Sandesh Md V2 💸*
+> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴢᴇʀᴏ ᴍᴅ 💸*
             `;
 
             console.log('Article URL:', article.urlToImage); // Log image URL for debugging
