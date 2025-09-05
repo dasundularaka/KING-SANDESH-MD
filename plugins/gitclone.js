@@ -43,7 +43,7 @@ cmd({
     const fileName = contentDisposition ? contentDisposition.match(/filename=(.*)/)[1] : `${repo}.zip`;
 
     // Notify user of the download
-    reply(`📥 *𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝚁𝙴𝙿𝙾𝚂𝙸𝚃𝙾𝚁𝚈...*\n\n*Ｒᴇᴘᴏ:* ${username}/${repo}\n*Ｆɪʟᴇ Ｎᴀᴍᴇ:* ${fileName}\n\n> *© Powered By King-Sandesh Md V2 💸*`);
+    reply(`📥 *𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝚁𝙴𝙿𝙾𝚂𝙸𝚃𝙾𝚁𝚈...*\n\n*Ｒᴇᴘᴏ:* ${username}/${repo}\n*Ｆɪʟᴇ Ｎᴀᴍᴇ:* ${fileName}\n\n> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴢᴇʀᴏ ᴍᴅ 💸*`);
 
     // Send the zip file to the user with custom contextInfo
     await conn.sendMessage(from, {
