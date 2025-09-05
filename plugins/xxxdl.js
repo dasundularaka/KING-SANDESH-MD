@@ -26,7 +26,7 @@ cmd({
 }, async (conn, mek, m, { args, reply }) => {
   try {
     const query = args.join(" ").trim();
-    if (!query) return reply("⚡ Query එකක් දෙන්න.\nඋදා: *.xhsearch indian milf*");
+    if (!query) return reply("⚡ PROVIDE A QUERY\nEg: *.xhsearch indian milf*");
 
     await reply("🔎 Searching xHamster...");
 
@@ -59,7 +59,7 @@ cmd({
     }
 
     const arr = Array.from(links.entries()).slice(0, 10);
-    if (arr.length === 0) return reply("❌ Search results හමු නොවුණා.");
+    if (arr.length === 0) return reply("❌ Search results not found");
 
     let text = `🔞 *xHamster Search Results for:* ${query}\n\n`;
     arr.forEach(([url, title], i) => {
@@ -72,7 +72,7 @@ cmd({
 
   } catch (err) {
     console.error("xhsearch error:", err);
-    reply("❌ Search එකට දෝෂයක්. ටිකක් පසුව නැවත උත්සහ කරන්න.");
+    reply("❌ An error occured. Please retry after a while.");
   }
 });
 
@@ -87,7 +87,7 @@ cmd({
 }, async (conn, mek, m, { args, reply }) => {
   try {
     let url = args[0];
-    if (!url) return reply("⚡ Link එකක් දෙන්න.\nඋදා: *.xhvideo https://xhamster.com/videos/slug-123456*");
+    if (!url) return reply("⚡ Provide a link.\nඋදා: *.xhvideo https://xhamster.com/videos/slug-123456*");
 
     // normalize
     if (!url.startsWith("http")) url = `https://${url}`;
@@ -122,7 +122,7 @@ cmd({
 
     // dedupe and prefer highest quality by choosing longest url or containing '1080'/'720'
     const unique = Array.from(new Set(found));
-    if (unique.length === 0) return reply("❌ Direct MP4 link හමු නොවුණා. Manual open කරන්න: " + url);
+    if (unique.length === 0) return reply("❌ Direct MP4 link not found. Open manually: " + url);
 
     // prefer quality
     unique.sort((a, b) => {
@@ -179,6 +179,6 @@ cmd({
 
   } catch (err) {
     console.error("xhvideo error:", err);
-    reply("❌ Video download/process එකේ දෝෂයක්. Link එක හරියෙන් තියෙනවද බලන්න.");
+    reply("❌ An error occured about Video download/process. Please check the link.");
   }
 });
