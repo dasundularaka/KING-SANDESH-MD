@@ -29,8 +29,8 @@ cmd({
         fs.writeFileSync("./lib/ban.json", JSON.stringify([...new Set(banned)], null, 2));
 
         await conn.sendMessage(from, {
-            image: { url: "https://files.catbox.moe/m5drmn.png" },
-            caption: `✅ 𝐔ꜱᴇ𝐑 𝐇ᴀ𝐒 𝐁ᴇᴇ𝐍 𝐁ᴀɴɴᴇ𝐃 𝐅ʀᴏ𝐌 𝐔ꜱɪɴ𝐆 𝐓ʜ𝐄 𝐊ꜱᴍ𝐃 𝐁ᴏ𝐓.`
+            image: { url: "https://files.catbox.moe/3jpwr1.jpg" },
+            caption: `✅ 🅄🅂🄴🅁 🄷🄰🅂 🄱🄴🄴🄽 🄱🄰🄽🄽🄴🄳 🄵🅁🄾🄼 🅄🅂🄸🄽🄶 🅃🄷🄴 🅉🄴🅁🄾 🄼🄳 🄱🄾🅃`
         }, { quoted: mek });
 
     } catch (err) {
@@ -66,7 +66,7 @@ cmd({
         fs.writeFileSync("./lib/ban.json", JSON.stringify(updated, null, 2));
 
         await conn.sendMessage(from, {
-            image: { url: "https://files.catbox.moe/m5drmn.png" },
+            image: { url: "https://files.catbox.moe/3jpwr1.jpg" },
             caption: `✅ 𝐔ꜱᴇ𝐑 𝐇ᴀ𝐒 𝐁ᴇᴇ𝐍 𝐔ɴʙᴀɴɴᴇ𝐃.`
         }, { quoted: mek });
 
@@ -98,7 +98,7 @@ cmd({
         });
 
         await conn.sendMessage(from, {
-            image: { url: "https://files.catbox.moe/m5drmn.png" },
+            image: { url: "https://files.catbox.moe/3jpwr1.jpg" },
             caption: msg
         }, { quoted: mek });
     } catch (err) {
