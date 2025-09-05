@@ -21,7 +21,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈╭─────────────────·๏
 ┃◈┃• 👑 Owner : *${config.OWNER_NAME}*
 ┃◈┃• ⚙️ Prefix : *[${config.PREFIX}]*
-┃◈┃• 🌐 Platform : *Heroku*
+┃◈┃• 🌐 Platform : *FACEBOOK*
 ┃◈┃• 📦 Version : *2.0.0*
 ┃◈┃• ⏱️ Runtime : *${runtime(process.uptime())}*
 ┃◈╰─────────────────┈⊷
@@ -346,7 +346,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/3y5w8z.jpg' },
+                image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/3jpwr1.jpg' },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
