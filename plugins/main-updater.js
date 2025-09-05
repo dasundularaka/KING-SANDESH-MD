@@ -16,7 +16,7 @@ cmd({
     if (!isOwner) return reply("This command is only for the bot owner.");
 
     try {
-        await reply("🔍 𝐂ʜᴇᴄᴋɪɴ𝐆 𝐅ᴏ𝐑 𝐊ꜱᴍ𝐃 𝐔ᴘᴅᴀᴛᴇ𝐒...");
+        await reply("🔍 CHECKING FOR ZERO MD UPDATES...");
 
         // Fetch the latest commit hash from GitHub
         const { data: commitData } = await axios.get("https://api.github.com/repos/vijitharanawakage/KING-SANDESH-MD/commits/V-2");
@@ -26,10 +26,10 @@ cmd({
         const currentHash = await getCommitHash();
 
         if (latestCommitHash === currentHash) {
-            return reply("✅ 𝐘ᴏᴜʀ 𝐊ꜱᴍᴅ 𝐁ᴏᴛ 𝐈ꜱ 𝐀ʟʀᴇᴀᴅʏ 𝐔ᴘ-𝐓ᴏ-𝐃ᴀᴛᴇ..!");
+            return reply("✅ 𝒁𝑬𝑹𝑶-𝑴𝑫 𝑩𝑶𝑻 𝑯𝑨𝑺 𝑨𝑳𝑹𝑬𝑨𝑫𝒀 𝑼𝑷-𝑻𝑶-𝑫𝑨𝑻𝑬..!");
         }
 
-        await reply("🚀 𝚄𝙿𝙳𝙰𝚃𝙸𝙽𝙶 <| 𝐊𝐈𝐍𝐆-𝐒𝐀𝐍𝐃𝐄𝐒𝐇-𝐌𝐃 𝐕❷🫧...");
+        await reply("🚀 𝙐𝙋𝘿𝘼𝙏𝙄𝙉𝙂 <| 𝙕𝙀𝙍𝙊-𝙈𝘿🫧...");
 
         // Download the latest code
         const zipPath = path.join(__dirname, "latest.zip");
@@ -55,7 +55,7 @@ cmd({
         fs.unlinkSync(zipPath);
         fs.rmSync(extractPath, { recursive: true, force: true });
 
-        await reply("✅ 𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙴..! 𝚁𝙴𝚂𝚃𝙰𝚁𝚃𝙸𝙽𝙶 𝚃𝙷𝙴 𝙺𝚂𝙼𝙳 𝙱𝙾𝚃...");
+        await reply("✅ 𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙴..! 𝐑𝐄𝐒𝐓𝐀𝐑𝐓𝐈𝐍𝐆 𝐓𝐇𝐄 𝐙𝐄𝐑𝐎 𝐌𝐃 𝐁𝐎𝐓...");
         process.exit(0);
     } catch (error) {
         console.error("Update error:", error);
