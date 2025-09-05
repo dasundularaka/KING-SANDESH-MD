@@ -29,7 +29,7 @@ async (conn, mek, m, { from, quoted, reply, isCreator }) => {
 │  ├─∘ *𝙿𝚁𝙴𝙵𝙸𝚇:* ${config.PREFIX}
 │  ├─∘ *𝙾𝚆𝙽𝙴𝚁:* ${config.OWNER_NAME}
 │  ├─∘ *𝙻𝙾𝙲𝙰𝚃𝙸𝙾𝙽:* ${config.LOCATION}
-│  ├─∘ *𝙶𝙸𝚃𝙷𝚄𝙱:* ${config.GITHUB}
+│  ├─∘ *𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺:* ${config.GITHUB}
 │  ├─∘ *𝙴𝙼𝙰𝙸𝙻:* ${config.EMAIL}
 │  ├─∘ *𝙾𝚆𝙽𝙴𝚁 𝙽𝚄𝙼𝙱𝙴𝚁:* ${config.OWNER_NUMBER}
 │  └─∘ *𝙼𝙾𝙳𝙴:* ${config.MODE.toUpperCase()}
