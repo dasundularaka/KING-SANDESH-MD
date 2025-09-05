@@ -25,11 +25,11 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             await conn.sendMessage(from, {
                 document: pdfData,
                 mimetype: 'application/pdf',
-                fileName: 'Ksmd.pdf',
+                fileName: 'zeromd.pdf',
                 caption: `
 *📄 𝐏𝐃𝐅 𝐂ʀᴇᴀᴛᴇ𝐃 𝐒ᴜᴄᴄᴇꜱꜱꜰᴜʟʟ𝐘..!*
 
-> *© Powered By King-Sandesh-Md V2 💸*`
+> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴢᴇʀᴏ ᴍᴅ 💸*`
             }, { quoted: mek });
         });
 
