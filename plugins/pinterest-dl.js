@@ -41,7 +41,7 @@ cmd({
 ┇๏ *𝚃𝙸𝚃𝙻𝙴* - ${title}
 ┇๏ *𝙼𝙴𝙳𝙸𝙰 𝚃𝚈𝙿𝙴* - ${media[0].type}
 ╰━━❑━⪼
-> *© Powered By King-Sandesh Md V2 💸*`;
+> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴢᴇʀᴏ ᴍᴅ 💸*`;
 
         // Send the media (video or image) to the user
         if (videoUrl) {
