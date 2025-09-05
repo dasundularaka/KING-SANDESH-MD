@@ -26,7 +26,7 @@ async (conn, mek, m, { from, args, q, reply, react }) => {
             ? info.neighbors.map(n => `🌍 *${n.name}*`).join(", ")
             : "No neighboring countries found.";
 
-        const text = `🌍 *𝐂ᴏᴜɴᴛʀ𝐘 𝐈ɴꜰ𝐎 𝐁𝐘 𝐊ꜱᴍ𝐃 : ${info.name}* 🌍\n\n` +
+        const text = `🌍 *𝐂𝐎𝐔𝐍𝐓𝐑𝐘 𝐈𝐍𝐅𝐎 <| 𝙕𝙀𝙍𝙊-𝙈𝘿 : ${info.name}* 🌍\n\n` +
                      `🏛 *𝙲𝙰𝙿𝙸𝚃𝙰𝙻:* ${info.capital}\n` +
                      `📍 *𝙲𝙾𝙽𝚃𝙸𝙽𝙴𝙽𝚃:* ${info.continent.name} ${info.continent.emoji}\n` +
                      `📞 *𝙲𝙾𝚄𝙽𝚃𝚁𝚈 𝙲𝙾𝙳𝙴:* ${info.phoneCode}\n` +
