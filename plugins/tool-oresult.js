@@ -34,7 +34,7 @@ async (conn, mek, m, { from, reply, sender, args }) => {
                              `🆔 *𝙸𝙽𝙳𝙴𝚇:* ${details.indexNumber}\n` +
                              `🪪 *𝙽𝙸𝙲:* ${details.nicNumber}\n\n` +
                              `📚 *𝚂𝚄𝙱𝙹𝙴𝙲𝚃 𝚁𝙴𝚂𝚄𝙻𝚃𝚂:*\n${resultText}\n\n` +
-                             `> *© Powered By King-Sandesh-Md V2 💸*`;
+                             `> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴢᴇʀᴏ ᴍᴅ 💸*`;
 
         await conn.sendMessage(
             from,
