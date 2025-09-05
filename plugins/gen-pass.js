@@ -56,7 +56,7 @@ cmd({
 
     // Send the message with the generated password
     await conn.sendMessage(from, {
-      text: "🔐 *𝐘ᴏᴜ𝐑 𝐒ᴛʀᴏɴ𝐆 𝐏ᴀꜱꜱᴡᴏʀ𝐃* 🔐\n\n𝐏𝐥𝐞𝐚𝐬𝐞 𝐅𝐢𝐧𝐝 𝐘𝐨𝐮𝐫 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐏𝐚𝐬𝐬𝐰𝐨𝐫𝐝 𝐁𝐞𝐥𝐨𝐰:\n\n" + generatedPassword + "\n\n> *© Powered By King-Sandesh Md V2 💸*"
+      text: "🔐 *𝐘ᴏᴜ𝐑 𝐒ᴛʀᴏɴ𝐆 𝐏ᴀꜱꜱᴡᴏʀ𝐃* 🔐\n\n𝐏𝐥𝐞𝐚𝐬𝐞 𝐅𝐢𝐧𝐝 𝐘𝐨𝐮𝐫 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐏𝐚𝐬𝐬𝐰𝐨𝐫𝐝 𝐁𝐞𝐥𝐨𝐰:\n\n" + generatedPassword + "\n\n> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴢᴇʀᴏ ᴍᴅ 💸*"
     }, {
       quoted: quoted
     });
