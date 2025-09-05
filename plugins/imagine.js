@@ -27,7 +27,7 @@ cmd({
 
     await conn.sendMessage(m.chat, {
       image: imageBuffer,
-      caption: `💸 *𝐈ᴍᴀɢ𝐄 𝐆ᴇɴᴇʀᴀᴛᴇ𝐃 𝐁𝐘 𝐊ɪɴ𝐆 𝐒ᴀɴᴅᴇꜱ𝐇 𝐌𝐃* 🚀\n✨ 𝙿𝚁𝙾𝙼𝙿𝚃: *${q}*`
+      caption: `💸 *GₑₙₑᵣₐₜₑD BY ₖᵢₙG ₛₐₙDₑₛₕ ₘD* 🚀\n✨ 𝙿𝚁𝙾𝙼𝙿𝚃: *${q}*`
     });
 
   } catch (error) {
@@ -61,7 +61,7 @@ cmd({
 
     await conn.sendMessage(m.chat, {
       image: imageBuffer,
-      caption: `💸 *𝐈ᴍᴀɢ𝐄 𝐆ᴇɴᴇʀᴀᴛᴇ𝐃 𝐁𝐘 𝐊ɪɴ𝐆 𝐒ᴀɴᴅᴇꜱ𝐇 𝐌𝐃* 🚀\n✨ 𝙿𝚁𝙾𝙼𝙿𝚃: *${q}*`
+      caption: `💸 *GₑₙₑᵣₐₜₑD BY ₖᵢₙG ₛₐₙDₑₛₕ ₘD* 🚀\n✨ 𝙿𝚁𝙾𝙼𝙿𝚃: *${q}*`
     });
 
   } catch (error) {
@@ -95,7 +95,7 @@ cmd({
 
     await conn.sendMessage(m.chat, {
       image: imageBuffer,
-      caption: `💸 *𝐈ᴍᴀɢ𝐄 𝐆ᴇɴᴇʀᴀᴛᴇ𝐃 𝐁𝐘 𝐊ɪɴ𝐆 𝐒ᴀɴᴅᴇꜱ𝐇 𝐌𝐃* 🚀\n✨ 𝙿𝚁𝙾𝙼𝙿𝚃: *${q}*`
+      caption: `💸 *GₑₙₑᵣₐₜₑD BY ₖᵢₙG ₛₐₙDₑₛₕ ₘD* 🚀\n✨ 𝙿𝚁𝙾𝙼𝙿𝚃: *${q}*`
     });
 
   } catch (error) {
