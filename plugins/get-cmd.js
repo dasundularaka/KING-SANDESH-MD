@@ -39,7 +39,7 @@ ${truncatedCode}
 \`\`\`
 ╰──────────⊷  
 ⚡ 𝙵𝚄𝙻𝙻 𝙵𝙸𝙻𝙴 𝚂𝙴𝙽𝚃 𝙱𝙴𝙻𝙾𝚆 📂  
-> *© Powered By King-Sandesh Md V2 💸*`;
+> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴢᴇʀᴏ ᴍᴅ 💸*`;
 
         // Send image with truncated source code
         await conn.sendMessage(from, { 
