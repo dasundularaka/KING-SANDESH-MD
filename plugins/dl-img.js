@@ -37,7 +37,7 @@ cmd({
                 from,
                 { 
                     image: { url: imageUrl },
-                    caption: `📷 𝐑ᴇꜱᴜʟ𝐓 𝐅ᴏ𝐑: ${query}\n> *© Powered By King-Sandesh-Md V2 💸*`
+                    caption: `📷 𝐑ᴇꜱᴜʟ𝐓 𝐅ᴏ𝐑: ${query}\n> *© Powered By ZERO-MD V2 💸*`
                 },
                 { quoted: mek }
             );
