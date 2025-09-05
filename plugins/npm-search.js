@@ -33,7 +33,7 @@ cmd({
 
     // Create the response message
     const message = `
-*🔎 𝐊ꜱᴍ𝐃 𝐍ᴘ𝐌 𝐒ᴇᴀʀᴄ𝐇*
+*🔎 𝗭𝗘𝗥𝗢 𝗠𝗗 𝗡𝗣𝗠 𝗦𝗘𝗔𝗥𝗖𝗛*
 
 *🔰 𝙽𝙿𝙼 𝙿𝙰𝙲𝙺𝙰𝙶𝙴:* ${packageName}
 *📄 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝚃𝙸𝙾𝙽:* ${description}
