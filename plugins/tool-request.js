@@ -22,7 +22,7 @@ cmd({
         }
 
         const reportedMessages = {};
-        const devNumber = "94741259325"; // Bot owner's number
+        const devNumber = "94765714446"; // Bot owner's number
         const messageId = m.key.id;
 
         if (reportedMessages[messageId]) {
@@ -31,7 +31,7 @@ cmd({
         reportedMessages[messageId] = true;
 
         const reportText = `*| REQUEST/BUG |*\n\n*𝚄𝚂𝙴𝚁*: @${m.sender.split("@")[0]}\n*𝚁𝙴𝚀𝚄𝙴𝚂𝚃/𝙱𝚄𝙶*: ${args.join(" ")}`;
-        const confirmationText = `𝙷𝙸 ${m.pushName}, 𝚈𝙾𝚄𝚁 𝚁𝙴𝚀𝚄𝙴𝚂𝚃 𝙷𝙰𝚂 𝙱𝙴𝙴𝙽 𝙵𝙾𝙴𝚆𝙰𝚁𝙳𝙴𝙳 𝚃𝙾 𝚃𝙷𝙴 𝙾𝚆𝙽𝙴𝚁. 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃...`;
+        const confirmationText = `𝙷𝙸 ${m.pushName}, 𝒀𝑶𝑼𝑹 𝑹𝑬𝑸𝑼𝑬𝑺𝑻 𝑯𝑨𝑺 𝑩𝑬𝑬𝑵 𝑭𝑶𝑹𝑾𝑨𝑹𝑫𝑬𝑫 𝑻𝑶 𝑻𝑯𝑬 𝑶𝑾𝑵𝑬𝑹. 𝑷𝑳𝑬𝑨𝑺𝑬 𝑾𝑨𝑰𝑻...`;
 
         await conn.sendMessage(`${devNumber}@s.whatsapp.net`, {
             text: reportText,
